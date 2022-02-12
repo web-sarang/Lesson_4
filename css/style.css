@@ -66,7 +66,7 @@ p {
 
 .intro-text {
     font-family: "Pacifico";
-    font-style: 20px;
+    font-size: 20px;
     color: rgb(168, 168, 10);
 }
 .menu-item {
@@ -129,7 +129,6 @@ p {
 .symptom-text {    
     font-family: 'Comforter', cursive;
     font-size: 25px;
-    font-style: monospace;
     letter-spacing: 10px;
     text-align: center;
     color:rgb(241, 103, 10)
