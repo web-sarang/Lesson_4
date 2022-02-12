@@ -1,0 +1,177 @@
+/* &display=swap - чтобы грузилось быстрее */
+
+@import "null.css";
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap);
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
+@font-face {
+    font-family:"RobotoSerif";
+    src: url("../fonts/RobotoSerif-Regular.woff2") format("woff2"), url("../fonts/RobotoSerif-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "RobotoSerif";
+    src: url("../fonts/RobotoSerif-Bold.woff2") format("woff2"), url("../fonts/RobotoSerif-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans-Italic.woff2") format("woff2"), url("../fonts/OpenSans-Italic.woff") format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "DavidLibre";
+    src: url("../fonts/DavidLibre-Bold.woff2") format("woff2"), url("../fonts/DavidLibre-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Lobster";
+    src: url("../fonts/Lobster-Regular.woff2") format("woff2"), url("../fonts/Lobster-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Pacifico";
+    src: url("../fonts/Pacifico-Regular.woff2") format("woff2"), url("../fonts/Pacifico-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    color:rgb(104, 100, 100);
+}
+
+.intro-text {
+    font-family: "Pacifico";
+    font-style: 20px;
+    color: rgb(168, 168, 10);
+}
+.menu-item {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.menu-item.article {
+    text-shadow: 5px 5px 5px rgb(68, 46, 4);
+}
+
+.menu-link {
+    color: rgb(221, 14, 111);
+    text-decoration: underline;
+}
+
+.intro-link {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    color: rgb(6, 172, 6);
+    text-decoration: underline;
+}
+
+.date {
+    font-family: "OpenSans", sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    text-align: right;
+    color: rgb(63, 201, 243);
+}
+
+.title {
+    font-family: "Lobster", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color:rgb(90, 63, 243);
+}
+
+.title span {
+    text-transform: uppercase;
+}
+
+.treatment-subtitle {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color:rgb(223, 24, 117)
+}
+
+[class*="-title"] {
+    font-family: "RobotoSerif", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: -3px -3px 2px rgba(75, 129, 201, 0.726), 3px 3px 2px rgba(75, 129, 201, 0.726);
+    color:rgb(35, 9, 150);   
+}
+.symptom-text {    
+    font-family: 'Comforter', cursive;
+    font-size: 25px;
+    font-style: monospace;
+    letter-spacing: 10px;
+    text-align: center;
+    color:rgb(241, 103, 10)
+}
+
+.symptom ul {
+    font-weight: 400;
+    text-align: right;
+    color:rgb(13, 182, 41);
+}
+
+.definition-text1 {
+    font-weight: 700;
+    text-transform: capitalize;
+    color:rgb(90, 63, 243)
+}
+.definition-text2 {    
+    font-family: "DavidLibre", serif;
+    font-style: italic;
+    color:rgba(209, 14, 79, 0.959)
+}
+
+.definition-text3 {
+    text-indent: 80px;
+    text-decoration: line-through;
+    color:rgb(175, 173, 18)
+}
+
+.treatment-text1 {
+    line-height: 2;
+    color:rgb(36, 96, 114);
+}
+
+.treatment-text2 {
+    color:rgb(68, 46, 4);
+    word-spacing: 20px;
+    text-decoration: underline;
+}
+
+.treatment-text3 {
+    font-family: 'Comforter', cursive;
+    text-transform: lowercase;
+    font-size: 20px;
+    color: red;
+}
